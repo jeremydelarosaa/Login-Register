@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #eaeaea;
+}
+
+form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.form-field-container {
+  margin-bottom: 10px;
+}
+
+.form-field-container > label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.form-field-container > input:not([type="checkbox"]) {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background-color: #eaeaea;
+}
+
+.form-field-container > button {
+  padding: 6px 16px;
+  border: none;
+  border-bottom: none;
+  background: rgb(233, 48, 85);
+  color: #fff;
+  border-radius: 18px;
+  margin-top: 20px;
+  transition: all 0.5;
+}
+
+.form-field-container > button:hover {
+  background: rgb(221, 15, 56);
+}
+
+.form-field-container > button:active {
+  background: rgb(165, 33, 59);
+  padding: 5px 14px;
+  border-bottom: 2px solid black;
+}
+
+p {
+  margin-top: 10px;
+  color: red;
+}
+
+.main-container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.main-container > button {
+  width: 20%;
+  height: 50px;
+  border: none;
+  background: rgb(233, 48, 85);
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+
+ul {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.signOut {
+  display: block;
+
+  position: absolute;
+  right: 0;
+}
